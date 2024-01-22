@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Cadastro de Clientes</title>
+</head>
+<body>
+    <div class="header" style="background-color: #E66A21;">
+        <img src="logo.png" alt="Logo">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <a href="clientes.html">Cadastro de Clientes</a>
+        <a href="funcionarios.html">Cadastro de Funcionários</a>
+        <a href="grupos.html">Cadastro de Grupos</a>
+        <a href="visualizacao_clientes.html">Visualização de Clientes</a>
+    </div>
+    <div class="content">
+        <h1>Cadastro de Clientes</h1>
+        <form>
+            <label for="nomeEmpresa">Nome da Empresa:</label>
+            <input type="text" id="nomeEmpresa" required>
+            
+            <label for="inicioContrato">Início do Contrato:</label>
+<input type="date" id="inicioContrato" style="width: 100%; height: 40px;" required>
+
+<label for="fimContrato">Fim do Contrato:</label>
+<input type="date" id="fimContrato" style="width: 100%; height: 40px;" required>
+            
+            <label for="grupo">Grupo:</label>
+            <select id="grupo" required>
+                <option value="grupo1">Grupo 1</option>
+                <option value="grupo2">Grupo 2</option>
+                <!-- Adicione outras opções de grupo conforme necessário -->
+            </select>
+            
+  <label for="inicioContrato">Início do Contrato:</label>
+<input type="date" id="inicioContrato" style="width: 100%;" required>
+
+<label for="fimContrato">Fim do Contrato:</label>
+<input type="date" id="fimContrato" style="width: 100%;" required>
+            
+            <label for="dominio">Domínio:</label>
+            <input type="text" id="dominio" required>
+            
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" required>
+            
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" required>
+            
+            <label>Regime Tributário:</label>
+        <div class="regime-tributario">
+    <label for="regimeA"><input type="radio" name="regimeTributario" id="regimeA" value="A"> A</label>
+    <label for="regimeB"><input type="radio" name="regimeTributario" id="regimeB" value="B"> B</label>
+    <label for="regimeC"><input type="radio" name="regimeTributario" id="regimeC" value="C"> C</label>
+    <label for="regimeD"><input type="radio" name="regimeTributario" id="regimeD" value="D"> D</label>
+</div>
+
+                <!-- ... (código anterior) -->
+<label>Unidade:</label>
+<div class="campo-booleano">
+    <label for="unidadeSim"><input type="radio" name="unidade" id="unidadeSim" value="Sim"> Sim</label>
+    <label for="unidadeNao"><input type="radio" name="unidade" id="unidadeNao" value="Não"> Não</label>
+</div>
+
+<label>Contabilidade:</label>
+<div class="campo-booleano">
+    <label for="contabilidadeSim"><input type="radio" name="contabilidade" id="contabilidadeSim" value="Sim"> Sim</label>
+    <label for="contabilidadeNao"><input type="radio" name="contabilidade" id="contabilidadeNao" value="Não"> Não</label>
+</div>
+
+<label>Fiscal:</label>
+<div class="campo-booleano">
+    <label for="fiscalSim"><input type="radio" name="fiscal" id="fiscalSim" value="Sim"> Sim</label>
+    <label for="fiscalNao"><input type="radio" name="fiscal" id="fiscalNao" value="Não"> Não</label>
+</div>
+
+<label>Movimento em Folha:</label>
+<div class="campo-booleano">
+    <label for="movimentoSim"><input type="radio" name="movimentoFolha" id="movimentoSim" value="Sim"> Sim</label>
+    <label for="movimentoNao"><input type="radio" name="movimentoFolha" id="movimentoNao" value="Não"> Não</label>
+</div>
+<!-- ... (código posterior) -->
+
+               
+            <button type="submit">Cadastrar Cliente</button>
+        </form>
+    </div>
+</body>
+</html>

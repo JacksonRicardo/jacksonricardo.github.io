@@ -1,0 +1,110 @@
+/* Adicione estas regras CSS ao seu arquivo style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0F0; /* Fundo cinza claro em toda a página */
+}
+
+.login-container {
+    background-color: #FFF; /* Fundo branco */
+    width: 300px;
+    margin: 100px auto; /* Centraliza o container verticalmente e horizontalmente */
+    padding: 20px;
+    text-align: center; /* Centraliza o texto no container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 5px;
+}
+
+.login-container h1 {
+    color: #E66A21; /* Cor laranja para o texto "Login" */
+    margin-bottom: 20px;
+}
+
+/* Atualize esta regra CSS para melhorar o estilo do menu */
+.header {
+    background-color: #E66A21;
+    color: #FFF;
+    padding: 15px 0; /* Aumenta o espaço vertical do menu */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+}
+
+.header a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 30px; /* Adiciona espaçamento entre os links */
+    font-size: 18px; /* Aumenta o tamanho do texto dos links */
+    font-weight: bold;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+
+.content {
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #FFF; /* Fundo branco para o conteúdo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="datetime-local"],
+input[type="email"], /* Ajuste para o campo de e-mail */
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box; /* Inclua a borda no cálculo do tamanho */
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    height: auto; /* Ajuste a altura automaticamente */
+    box-sizing: border-box; /* Inclua a borda no cálculo do tamanho */
+}
+
+button {
+    background-color: #A6B839;
+    color: #FFF;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #D4212C;
+}
+
+/* Adicione esta regra CSS ao seu arquivo style.css */
+.regime-tributario label {
+    display: inline-block; /* Exibe as opções em linha */
+    margin-right: 20px; /* Adicione espaçamento entre as opções, se desejado */
+}
+
+/* Adicione esta regra CSS ao seu arquivo style.css */
+.campo-booleano label {
+    display: inline-block; /* Exibe as opções "Sim" e "Não" em linha */
+    margin-right: 20px; /* Adicione espaçamento entre as opções, se desejado */
+}
+

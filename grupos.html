@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Cadastro de Grupos</title>
+</head>
+<body>
+    <div class="header" style="background-color: #E66A21;">
+        <img src="logo.png" alt="Logo">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <a href="clientes.html">Cadastro de Clientes</a>
+        <a href="funcionarios.html">Cadastro de Funcionários</a>
+        <a href="grupos.html">Cadastro de Grupos</a>
+        <a href="visualizacao_grupos.html">Visualização de Grupos</a>
+    </div>
+    <div class="content">
+        <h1>Cadastro de Grupos</h1>
+        <form>
+            <label for="dataHora">Data e Hora:</label>
+            <input type="datetime-local" id="dataHora" required>
+            
+            <label for="grupoEconomico">Grupo Econômico:</label>
+            <input type="text" id="grupoEconomico" required>
+            
+            <label for="usuarioGrupo">Usuário:</label>
+            <input type="text" id="usuarioGrupo" required>
+            
+            <button type="submit">Cadastrar Grupo</button>
+        </form>
+    </div>
+</body>
+</html>

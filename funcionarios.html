@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Cadastro de Funcionários</title>
+</head>
+<body>
+    <div class="header" style="background-color: #E66A21;">
+        <img src="logo.png" alt="Logo">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <a href="clientes.html">Cadastro de Clientes</a>
+        <a href="funcionarios.html">Cadastro de Funcionários</a>
+        <a href="grupos.html">Cadastro de Grupos</a>
+        <a href="visualizacao_funcionarios.html">Visualização de Funcionários</a>
+    </div>
+    <div class="content">
+        <h1>Cadastro de Funcionários</h1>
+        <form>
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" required>
+            
+            <label for="nomeFuncionario">Nome:</label>
+            <input type="text" id="nomeFuncionario" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required>
+            
+            <label for="cargo">Cargo:</label>
+            <select id="cargo" required>
+                <option value="cargo1">Cargo 1</option>
+                <option value="cargo2">Cargo 2</option>
+                <!-- Adicione outras opções de cargo conforme necessário -->
+            </select>
+            
+            <label for="empresaResponsavel">Empresa Responsável:</label>
+            <select id="empresaResponsavel" required>
+                <option value="empresa1">Empresa 1</option>
+                <option value="empresa2">Empresa 2</option>
+                <!-- Adicione outras opções de empresa conforme necessário -->
+            </select>
+            
+            <button type="submit">Cadastrar Funcionário</button>
+        </form>
+    </div>
+</body>
+</html>
